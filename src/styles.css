@@ -1,0 +1,165 @@
+body {
+    font-family: sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #4096ee;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer {
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.title__span {
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.offer__text {
+    font-size: 14px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    width: 100%;
+    height: 55px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    background-color: #ffd429;
+    padding: 15px 0px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #edc730;
+    cursor: pointer;
+}
+
+.expect {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.wishes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.wish {
+    width: 30%;
+    text-align: center;
+}
+
+.wish__title {
+    margin-top: 30px;
+}
+
+.wish__text {
+    margin-top: 18px;
+}
+
+.mail {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #ecf3f8;
+}
+
+.form {
+    margin: 30px auto 0 auto;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    height: 47px;
+    margin-bottom: 18px;
+    border: 1px solid #bbbbbb;
+    padding-left: 27px;
+}
+
+.btn-form {
+    border: 1px solid #bbbbbb;
+    width: 100%;
+    height: 55px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    background-color: #ffd429;
+    padding: 15px 0px;
+    text-align: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1e5799;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .wish {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .wish {
+        width: 100%;
+    }
+}
